@@ -13,59 +13,59 @@
 
     <form id = "quiz">
 
-        <p>Which film in the <i>Halloween</i> franchise did NOT feature Michael Myers?</p>
+        <p id = "question1">Which film in the <i>Halloween</i> franchise did NOT feature Michael Myers?</p>
         <input id = "choice" type = "radio" value = "Halloween 3"> Halloween 3<BR>
         <input id = "choice" type = "radio" value = "Halloween: Resurrection"> Halloween: Resurrection<BR>
         <input id = "choice" type = "radio" value = "Halloween: H20"> Halloween: H20<BR>
         <input id = "choice" type = "radio" value = "none"> None of the Above<BR>
         
-        <p>In what country did the horror/thriller subgenre "Giallo" originate?</p>
+        <p id = "question2">In what country did the horror/thriller subgenre "Giallo" originate?</p>
         <input id = "choice" type = "radio" value = "Germany"> Germany<BR>
         <input id = "choice" type = "radio" value = "Mexico"> Mexico<BR>
         <input id = "choice" type = "radio" value = "France"> France<BR>
         <input id = "choice" type = "radio" value = "Italy"> Italy<BR>
         
-        <p>Which horror director wrote the script for <i>Honey, I Shrunk the Kids?</i></p>
+        <p id = "question3">Which horror director wrote the script for <i>Honey, I Shrunk the Kids?</i></p>
         <input id = "choice" type = "radio" value = "George A. Romero"> George A. Romero<BR>
         <input id = "choice" type = "radio" value = "Stuart Gordon"> Stuart Gordon<BR>
         <input id = "choice" type = "radio" value = "Wes Craven"> Wes Craven<BR>
         <input id = "choice" type = "radio" value = "Dario Argento"> Dario Argento<BR>
             
-        <p>Which 90's slasher film features the famous line "Do you like scary movies?"</p>
+        <p id = "question4">Which 90's slasher film features the famous line "Do you like scary movies?"</p>
         <input id = "choice" type = "radio" value = "Urban Legends"> Urban Legends<BR>
         <input id = "choice" type = "radio" value = "The Craft"> The Craft<BR>
         <input id = "choice" type = "radio" value = "Scream"> Scream<BR>
         <input id = "choice" type = "radio" value = "I Know What You Did Last Summer"> I Know What You Did Last Summer<BR>
         
-        <p>Who owned the production/distribution company New World Pictures?<p>
+        <p id = "question5">Who owned the production/distribution company New World Pictures?<p>
         <input id = "choice" type = "radio" value = "Roger Corman"> Roger Corman<BR>
         <input id = "choice" type = "radio" value = "Dean Koontz"> Dean Koontz<BR>
         <input id = "choice" type = "radio" value = "Robert E. Howard"> Robert E. Howard<BR>
         <input id = "choice" type = "radio" value = "Eli Roth"> Eli Roth<BR>
             
-        <p>What is the primary location of the film <i>Dawn of the Dead</i>?</p>
+        <p id = "question6">What is the primary location of the film <i>Dawn of the Dead</i>?</p>
         <input id = "choice" type = "radio" value = "Kroger"> Kroger<BR>
         <input id = "choice" type = "radio" value = "Mall"> Mall<BR>
         <input id = "choice" type = "radio" value = "Military Base"> Military Base<BR>
         <input id = "choice" type = "radio" value = "Island"> An Island<BR>
             
-        <p>Which film does NOT star Jamie Lee Curtis?</p>
+        <p id = "question7">Which film does NOT star Jamie Lee Curtis?</p>
         <input id = "choice" type = "radio" value = "Prom Night"> Prom Night<BR>
         <input id = "choice" type = "radio" value = "Halloween"> Halloween<BR>
         <input id = "choice" type = "radio" value = "The Howling"> The Howling<BR>
         <input id = "choice" type = "radio" value = "The Fog">The Fog<BR>
                 
-        <p>Which director also wrote and performed the scores to many of his movies?</p>
+        <p id = "question8">Which director also wrote and performed the scores to many of his movies?</p>
         <input id = "choice" type = "radio" value = "Rob Zombie"> Rob Zombie<BR>
         <input id = "choice" type = "radio" value = "Tobe Hooper"> Tobe Hooper<BR>
         <input id = "choice" type = "radio" value = "Sam Raimi"> Sam Raimi<BR>
         <input id = "choice" type = "radio" value = "John Carpenter"> John Carpenter<BR>
         <br>
 
-        <input id = "submit" type = "button" value = "Submit...if you dare" onclick="submit();">
+        <button id = "submit" onclick = "getResults();"> Submit...if you dare </button>
         
         <div id = "results">
-            <p id = "correct">Good Job</p>
+            <p id = "numberCorrect">Good Job</p>
         </div>
 
     </form>
