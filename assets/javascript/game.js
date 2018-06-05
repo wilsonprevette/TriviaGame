@@ -1,16 +1,21 @@
-//create function for generating results when submit button is clicked
+//create start/reset timer button functions
+let timer
+function start(){
+    
+}
 
+//create function for generating results when submit button is clicked
 function getResults(){
     //creating variables for questions/correct responses and number correct/incorrect
-    var question1 = document.quiz.question1.value;
-    var question2 = document.quiz.question2.value;
-    var question3 = document.quiz.question3.value;
-    var question4 = document.quiz.question4.value;
-    var question5 = document.quiz.question5.value;
-    var question6 = document.quiz.question6.value;
-    var question7 = document.quiz.question7.value;
-    var question8 = document.quiz.question8.value;
-    var correct = 0;
+    let question1 = document.quiz.question1.value;
+    let question2 = document.quiz.question2.value;
+    let question3 = document.quiz.question3.value;
+    let question4 = document.quiz.question4.value;
+    let question5 = document.quiz.question5.value;
+    let question6 = document.quiz.question6.value;
+    let question7 = document.quiz.question7.value;
+    let question8 = document.quiz.question8.value;
+    let correct = 0;
 
     //set if statements for correct answers
 
