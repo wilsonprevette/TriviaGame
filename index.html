@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Willy P's House of Horror</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet">
     <script src="game.js"></script>
 </head>
@@ -62,8 +62,12 @@
         <input id = "choice" type = "radio" value = "John Carpenter"> John Carpenter<BR>
         <br>
 
-        <input id = "done" type = "button" value = "Submit...if you dare" onclick="submit();">
-            
+        <input id = "submit" type = "button" value = "Submit...if you dare" onclick="submit();">
+        
+        <div id = "results">
+            <p id = "correct">Good Job</p>
+        </div>
+
     </form>
 
 </body>
