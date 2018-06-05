@@ -1,6 +1,6 @@
 //set up timer function
 
-//set up click functions
+//Submit Button click function
 function submit(){
-    
+    document.getElementById("correct").style.visibility = "visible";
 }
