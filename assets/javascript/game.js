@@ -6,6 +6,7 @@ function start(){
 
 //create function for generating results when submit button is clicked
 function getResults(){
+    getResults.preventDefault();
     //creating variables for questions/correct responses and number correct/incorrect
     let question1 = document.quiz.question1.value;
     let question2 = document.quiz.question2.value;
